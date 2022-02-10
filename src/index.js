@@ -1,7 +1,8 @@
 import React from 'react'
+import App from './components/App'
 
-export const ServerSideTable = ({ text }) => {
-  return <div >Example Component: {text}</div>
+export const ServerSideTable = (props) => {
+  return <App />
 }
 
 
